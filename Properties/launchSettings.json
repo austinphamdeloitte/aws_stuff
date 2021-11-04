@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Mock Lambda Test Tool": {
+      "commandName": "Executable",
+      "commandLineArgs": "--port 5050",
+      "workingDirectory": ".\\bin\\$(Configuration)\\netcoreapp3.1",
+      "executablePath": "%USERPROFILE%\\.dotnet\\tools\\dotnet-lambda-test-tool-3.1.exe",
+      "environmentVariables": {
+        "ROOTAPI": "https://randomapi.com/api/?key=EP1I-LUXB-OLGU-72GD&ref=v2i3lb3w",
+      }
+    }
+  }
+}
